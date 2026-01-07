@@ -62,6 +62,14 @@
 │  [03]  computer-speak_claude-prompt.md  AI voice transformer      [ACTIVE] │
 │  [04]  computer-speak_grok-prompt.md    AI voice transformer      [ACTIVE] │
 │                                                                            │
+│  ┌──────────────────────────────────────────────────────────────────────┐  │
+│  │  SMART BREVITY                                                      │  │
+│  │  ═══════════════                                                    │  │
+│  │  Condense long-form content into scannable executive summaries      │  │
+│  └──────────────────────────────────────────────────────────────────────┘  │
+│                                                                            │
+│  [05]  rewrite-in-axios-smart-brevity-style.md  Exec condenser   [ACTIVE] │
+│                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -188,6 +196,92 @@ Two implementations available, each with distinct characteristics:
 
 ---
 
+### SMART BREVITY: EXECUTIVE CONDENSATION
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                                                                            │
+│      INPUT                              OUTPUT                             │
+│     ┌────────────────────┐             ┌────────────────────┐              │
+│     │                    │             │                    │              │
+│     │  Long-form report  │             │  **Headline**      │              │
+│     │  with multiple     │  ━━━━━━━▶   │  One-line summary  │              │
+│     │  paragraphs and    │             │                    │              │
+│     │  dense details...  │             │  **Why it matters:**│              │
+│     │                    │             │  Key insight here  │              │
+│     │  [VERBOSE]         │             │                    │              │
+│     │                    │             │  [SCANNABLE]       │              │
+│     └────────────────────┘             └────────────────────┘              │
+│                                                                            │
+│          ░░░░░░░░░░░░░                                                     │
+│          ░  CONDENSE  ░                                                    │
+│          ░░░░░░░░░░░░░                                                     │
+│                                                                            │
+│     ┌────────────────────────────────────────────────────────────────┐     │
+│     │  CONDENSATION PARAMETERS                                       │     │
+│     │  ──────────────────────────                                    │     │
+│     │  • 40-50% shorter than original                                │     │
+│     │  • Identify the "One Big Thing"                                │     │
+│     │  • Structure with Axios-style axioms                           │     │
+│     │  • Short sentences, active voice                               │     │
+│     │  • Preserve all substantive facts                              │     │
+│     │  • Optimize for busy executives                                │     │
+│     └────────────────────────────────────────────────────────────────┘     │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**[rewrite-in-axios-smart-brevity-style.md](rewrite-in-axios-smart-brevity-style.md)** — Condense long-form content into scannable executive summaries using Axios Smart Brevity methodology
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│  AXIOS-STYLE AXIOMS                                                        │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│  **Why it matters:**     Brief explanation of significance (1-2 sentences) │
+│  **Driving the news:**   Key facts, events, or data                        │
+│  **The big picture:**    Broader context or implications                   │
+│  **Between the lines:**  Subtle insights or overlooked details             │
+│  **Reality check:**      Counterpoints or caveats                          │
+│  **Yes, but:**           Acknowledging limitations                         │
+│  **Zoom out:**           High-level overview                               │
+│  **Go deeper:**          Optional additional data or sources               │
+│  **The bottom line:**    Final takeaway sentence                           │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│  EXAMPLE TRANSFORMATION                                                    │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│  BEFORE:                                                                   │
+│  "General Atlantic has made a significant decision to integrate an         │
+│   artificial intelligence system into their investment committee. The      │
+│   AI, which they've named Ada, will participate in committee meetings      │
+│   alongside the five human members. While Ada won't have voting rights     │
+│   initially, there's potential for this to change over the next decade..." │
+│                                                                            │
+│  AFTER:                                                                    │
+│  ┌──────────────────────────────────────────────────────────────────────┐  │
+│  │  **AI Joins Investing Committee at General Atlantic**               │  │
+│  │  General Atlantic has integrated a non-voting AI, Ada, into its     │  │
+│  │  five-person investing committee, with potential for voting rights  │  │
+│  │  in 10 years.                                                       │  │
+│  │                                                                      │  │
+│  │  **Driving the news:** Trained on 45 years of investment history    │  │
+│  │  and memos, Ada aligns with committee votes 80-90% of the time.     │  │
+│  │                                                                      │  │
+│  │  **The bottom line:** AI enhances decision-making but complements,  │  │
+│  │  not replaces, human judgment.                                      │  │
+│  └──────────────────────────────────────────────────────────────────────┘  │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## USAGE PROTOCOLS
 
 ```
@@ -210,6 +304,11 @@ Two implementations available, each with distinct characteristics:
 │  Feed any document through the computer-speak prompt to transform          │
 │  human prose into superintelligent AI voice while preserving all           │
 │  factual content and meaning.                                              │
+│                                                                            │
+│  SMART BREVITY APPLICATION:                                                │
+│  Feed long-form reports, articles, or case studies through the brevity     │
+│  prompt to condense into scannable executive summaries optimized for       │
+│  busy decision-makers using Axios-style formatting.                        │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
