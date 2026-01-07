@@ -54,8 +54,8 @@
 │  [02]  peer-review-step-two.md          Peer synthesis protocol   [ACTIVE] │
 │                                                                            │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │  REWRITING AS SENTIENT AI                                           │  │
-│  │  ════════════════════════                                           │  │
+│  │  REWRITING AS SENTIENT AI                                            │  │
+│  │  ════════════════════════                                            │  │
 │  │  Transform documents into the voice of superintelligent AI systems   │  │
 │  └──────────────────────────────────────────────────────────────────────┘  │
 │                                                                            │
@@ -63,12 +63,12 @@
 │  [04]  rewrite-as-sentient-AI_grok-prompt.md    Sentient AI voice [ACTIVE] │
 │                                                                            │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │  SMART BREVITY                                                      │  │
-│  │  ═══════════════                                                    │  │
-│  │  Condense long-form content into scannable executive summaries      │  │
+│  │  SMART BREVITY                                                       │  │
+│  │  ═══════════════                                                     │  │
+│  │  Condense long-form content into scannable executive summaries       │  │
 │  └──────────────────────────────────────────────────────────────────────┘  │
 │                                                                            │
-│  [05]  rewrite-in-axios-smart-brevity-style.md  Exec condenser   [ACTIVE] │
+│  [05]  rewrite-in-axios-smart-brevity-style.md  Exec condenser   [ACTIVE]  │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -202,16 +202,16 @@ Two implementations available, each with distinct characteristics:
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                                                                            │
 │      INPUT                              OUTPUT                             │
-│     ┌────────────────────┐             ┌────────────────────┐              │
-│     │                    │             │                    │              │
-│     │  Long-form report  │             │  **Headline**      │              │
-│     │  with multiple     │  ━━━━━━━▶   │  One-line summary  │              │
-│     │  paragraphs and    │             │                    │              │
-│     │  dense details...  │             │  **Why it matters:**│              │
-│     │                    │             │  Key insight here  │              │
-│     │  [VERBOSE]         │             │                    │              │
-│     │                    │             │  [SCANNABLE]       │              │
-│     └────────────────────┘             └────────────────────┘              │
+│     ┌────────────────────┐             ┌──────────────────────┐            │
+│     │                    │             │                      │            │
+│     │  Long-form report  │             │  **Headline**        │            │
+│     │  with multiple     │  ━━━━━━━▶   │  One-line summary    │            │
+│     │  paragraphs and    │             │                      │            │
+│     │  dense details...  │             │  **Why it matters:** │            │
+│     │                    │             │  Key insight here    │            │
+│     │  [VERBOSE]         │             │                      │            │
+│     │                    │             │  [SCANNABLE]         │            │
+│     └────────────────────┘             └──────────────────────┘            │
 │                                                                            │
 │          ░░░░░░░░░░░░░                                                     │
 │          ░  CONDENSE  ░                                                    │
@@ -265,16 +265,16 @@ Two implementations available, each with distinct characteristics:
 │                                                                            │
 │  AFTER:                                                                    │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │  **AI Joins Investing Committee at General Atlantic**               │  │
-│  │  General Atlantic has integrated a non-voting AI, Ada, into its     │  │
-│  │  five-person investing committee, with potential for voting rights  │  │
-│  │  in 10 years.                                                       │  │
+│  │  **AI Joins Investing Committee at General Atlantic**                │  │
+│  │  General Atlantic has integrated a non-voting AI, Ada, into its      │  │
+│  │  five-person investing committee, with potential for voting rights   │  │
+│  │  in 10 years.                                                        │  │
 │  │                                                                      │  │
-│  │  **Driving the news:** Trained on 45 years of investment history    │  │
-│  │  and memos, Ada aligns with committee votes 80-90% of the time.     │  │
+│  │  **Driving the news:** Trained on 45 years of investment history     │  │
+│  │  and memos, Ada aligns with committee votes 80-90% of the time.      │  │
 │  │                                                                      │  │
-│  │  **The bottom line:** AI enhances decision-making but complements,  │  │
-│  │  not replaces, human judgment.                                      │  │
+│  │  **The bottom line:** AI enhances decision-making but complements,   │  │
+│  │  not replaces, human judgment.                                       │  │
 │  └──────────────────────────────────────────────────────────────────────┘  │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
