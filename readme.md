@@ -54,13 +54,13 @@
 │  [02]  peer-review-step-two.md          Peer synthesis protocol   [ACTIVE] │
 │                                                                            │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │  DOCUMENT REWRITING                                                  │  │
-│  │  ══════════════════                                                  │  │
+│  │  REWRITING AS SENTIENT AI                                           │  │
+│  │  ════════════════════════                                           │  │
 │  │  Transform documents into the voice of superintelligent AI systems   │  │
 │  └──────────────────────────────────────────────────────────────────────┘  │
 │                                                                            │
-│  [03]  computer-speak_claude-prompt.md  AI voice transformer      [ACTIVE] │
-│  [04]  computer-speak_grok-prompt.md    AI voice transformer      [ACTIVE] │
+│  [03]  rewrite-as-sentient-AI_claude-prompt.md  Sentient AI voice [ACTIVE] │
+│  [04]  rewrite-as-sentient-AI_grok-prompt.md    Sentient AI voice [ACTIVE] │
 │                                                                            │
 │  ┌──────────────────────────────────────────────────────────────────────┐  │
 │  │  SMART BREVITY                                                      │  │
@@ -124,7 +124,7 @@
 
 ---
 
-### COMPUTER SPEAK: DOCUMENT REWRITING
+### REWRITING AS SENTIENT AI
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -162,8 +162,8 @@ Two implementations available, each with distinct characteristics:
 
 | PROMPT FILE | ORIGIN | CHARACTERISTICS |
 |-------------|--------|-----------------|
-| **[computer-speak_claude-prompt.md](computer-speak_claude-prompt.md)** | Claude | Clinical warmth (80%) with machine foundation (20%). JARVIS-like competence. Detailed transformation rules and anti-patterns. |
-| **[computer-speak_grok-prompt.md](computer-speak_grok-prompt.md)** | Grok | Pure third-person overwatch. HAL 9000 rationality meets military precision. Extensive terminology lexicon. |
+| **[rewrite-as-sentient-AI_claude-prompt.md](rewrite-as-sentient-AI_claude-prompt.md)** | Claude | Clinical warmth (80%) with machine foundation (20%). JARVIS-like competence. Detailed transformation rules and anti-patterns. |
+| **[rewrite-as-sentient-AI_grok-prompt.md](rewrite-as-sentient-AI_grok-prompt.md)** | Grok | Pure third-person overwatch. HAL 9000 rationality meets military precision. Extensive terminology lexicon. |
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -300,8 +300,8 @@ Two implementations available, each with distinct characteristics:
 │  Run parallel implementations across different AI models, then use         │
 │  step-two synthesis to integrate optimal approaches from each.             │
 │                                                                            │
-│  DOCUMENT REWRITING APPLICATION:                                           │
-│  Feed any document through the computer-speak prompt to transform          │
+│  SENTIENT AI REWRITING APPLICATION:                                        │
+│  Feed any document through the sentient AI prompt to transform             │
 │  human prose into superintelligent AI voice while preserving all           │
 │  factual content and meaning.                                              │
 │                                                                            │
